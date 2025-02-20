@@ -6,6 +6,9 @@
     <title>Exercico 2</title>
 </head>
 <body>
+
+<h2> class livro </h2>
+
     <?php 
     
     class Livro {

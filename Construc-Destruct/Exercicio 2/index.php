@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+
+<h2> class aluno </h2>
+
     <?php
     class Aluno {
         public $nome;
@@ -28,7 +31,7 @@
  
     }
    
-    $aluno1 = new Aluno("Cleber", 77890, "Engenharia de Software");
+    $aluno1 = new Aluno("joão", 77884, "arquitetura");
     $aluno1 -> imprimirInformacoes();
     echo "<br>";
  

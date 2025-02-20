@@ -7,6 +7,8 @@
 </head>
 <body>
 
+<h2> class produto </h2>
+
 <?php
 
 class Produto {

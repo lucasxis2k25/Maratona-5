@@ -6,6 +6,9 @@
     <title>Classe Carro</title>
 </head>
 <body>
+
+<h2> class carro </h2>
+
 <?php 
 
 //classe

@@ -6,6 +6,9 @@
     <title>Exercicio 2</title>
 </head>
 <body>
+
+<h2> function </h2>
+
 <?php
 
 class ProdutoRoupa {
@@ -26,12 +29,12 @@ class ProdutoRoupa {
     public function imprimirInformacoes() {
         $this->codigoProduto = $this->gerarCodigoProduto();
         echo "Código do Produto: $this->codigoProduto <br>";
-        echo "Nome: $this->nome <br>";
-        echo "Preço: $this->preco <br>";
+        echo "Nome:  $this->nome <br>";
+        echo "Preço: R$ $this->preco <br>";
     }
 }
 
-$produto = new ProdutoRoupa("Camisa", 100, "");
+$produto = new ProdutoRoupa("Camisa ", 130 , "");
 $produto->imprimirInformacoes();
 
 ?>
